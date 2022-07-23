@@ -1,0 +1,158 @@
+body{
+
+    margin: 0px;
+    padding: 0px;
+    background-image: url("images/background1.jpg");
+    background-size: cover;
+}
+
+.login-section{
+
+width: 100%;
+float: left;
+color: white;
+
+
+
+
+}
+
+
+.borderradii{
+
+border-radius: 10px;
+
+}
+
+/* .login-page{
+width: 100%;
+float: left;
+margin: 100px;
+
+} */
+
+.userinput{
+
+    width: 90%;
+    padding: 2px 20px;
+    margin: 2px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+
+
+}
+
+.login-container{
+
+max-width: 500px;
+
+
+}
+
+.login-row{
+
+margin-top: 100px;
+margin-bottom: 100px;
+
+}
+/* 
+.login-button{
+    width: 90%;
+border-radius: 10px;
+padding: 2px 0px;
+margin: 2px 0;
+} */
+
+
+.submitbtn{
+
+    background-color:green;
+    color: white;
+    font-weight: bold;
+}
+
+
+
+
+.img-div{
+
+text-align: center;
+
+}
+
+.logo-h5{
+
+    color: #2f3192;
+font-size: 11px;
+text-align: center;
+margin-bottom: 0px;
+
+}
+
+p{
+
+    font-size: 10px;
+    color: #2f3192;
+text-align: center;
+margin-bottom: 0px;
+}
+/* 
+.gif-img{
+
+    width: 100%;
+    margin: auto;
+    padding: 50px;
+
+} */
+
+.imgsection-div{
+
+    padding: 5%;
+    
+}
+
+.imgsection-div0{
+
+    padding: 20%;
+
+
+}
+
+.logo1{
+
+margin-top: 20px;
+
+
+}
+
+
+/* media query  start*/
+ 
+
+@media only screen and (max-width: 600px) {
+   .login-row{
+
+margin-top: 50px;
+margin-bottom: 0px;
+
+   }
+
+
+   .imgsection-div0{
+padding: 9%;
+
+   }
+
+body{
+
+    margin: 25px;
+}
+
+
+  }
+
+
+
+/* media query end */
